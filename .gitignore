@@ -3,7 +3,9 @@
 #launch.json folder
 .vscode/
 #Cache folder
+
 .alcache/
+
 #Symbols folder
 .alpackages/
 #Snapshots folder
@@ -20,3 +22,25 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# virtual env
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.idea/
+.vscode/
+
+# OS smeće
+.DS_Store
+Thumbs.db
+
+# Generisane instance
+instance_*.json
